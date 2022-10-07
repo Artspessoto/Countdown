@@ -1,0 +1,97 @@
+html{
+    margin: 0;
+    overflow-x: hidden;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.comunicationWrapper{
+    width: 30%;
+}
+
+.introduction{
+    color: #6C63FF;
+    font-weight: bold;
+    font-size: 32px;
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+
+.timer{
+    color: #4D4C59;
+    font-size: 60px;
+    display: flex;
+}
+
+
+span{
+    padding: 0px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#days, #hours, #min, #sec{
+    color: #C8C8C8;
+}
+
+#hours{
+    padding-left: 35px;
+    margin: 0;
+}
+
+#min{
+    padding-left: 35px;
+}
+
+#sec{
+    padding: 0;
+}
+
+.rocket{
+    display: flex;
+}
+
+p{
+    padding-bottom: 5%;
+    font-size: 16px;
+    color: #9C9AB6;
+}
+
+.btnControl{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20%;
+    padding-bottom: 0;
+}
+
+.register{
+    cursor: pointer;
+    background-color: #6C63FF;
+    color: white;
+    border: 1px solid #6C63FF;
+    width: 40%;
+    height: 40px;
+    border-radius: 15px;
+    font-size: 16px;
+}
+
+.controlLabel{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
